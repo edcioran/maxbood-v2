@@ -16,7 +16,11 @@
         @apply text-base
     }
     p {
-        @apply text-slate-500
+        @apply text-gray-600
+    }
+
+    footer li {
+        @apply mb-2
     }
 }
 
