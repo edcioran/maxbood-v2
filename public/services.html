@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,12 +18,14 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Services – Maxbood</title>
 </head>
+
 <body>
     <!-- NAVBAR -->
     <nav id="navbar"
         class="z-10 fixed bg-transparent md:py-7 border-gray-200 px-4 sm:px-4 py-2.5 rounded-none dark:bg-gray-800 top-0 left-0 right-0">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
-            <a href="./services.html"><img src="../src/img/branding/logo-wo.png" class="mr-3 h-5" alt="Maxbood Logo"></a>
+            <a href="./index.html"><img src="../src/img/branding/logo-wo.png" class="mr-3 h-5"
+                    alt="Maxbood Logo"></a>
             <button id="navbar-toggle" data-collapse-toggle="mobile-menu" type="button"
                 class="inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg md:hidden"
                 aria-controls="mobile-menu" aria-expanded="false">
@@ -44,11 +47,11 @@
                 <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                     <li>
                         <a href="./services.html"
-                        class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 md:text-white">Home</a>
+                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 md:text-white">Home</a>
                     </li>
                     <li>
                         <a href="./about.html"
-                        class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 md:text-white">About</a>
+                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 md:text-white">About</a>
                     </li>
                     <li>
                         <a href="./index.html"
@@ -68,6 +71,177 @@
         </div>
     </nav>
 
+    <!-- HERO SECTION -->
+    <section id="hero-section" class="relative bg-cover bg-center mx-auto md:h-screen"
+        style="background-image: url(../src/img/hero-home.jpg);">
+        <div class="w-full h-full bg-orange-800/50 md:flex md:justify-center md:items-end">
+            <div class="container mx-auto px-4 md:p-0 pt-20 pb-10 md:mb-32">
+                <h1 class="text-white leading-6 md:leading-none md:mb-10">Extensive global expertise in policy,
+                    commerce, and politics with a focus on building competitive advantage</h1>
+            </div>
+        </div>
+    </section>
 
+    <!-- SERVICES SECTION -->
+    <section id="services-section" class="">
+        <div class="container mx-auto px-4 py-8">
+            <sub>Our services</sub>
+            <h2>What we advise to our clients</h2>
+
+            <div id="accordion-flush" data-accordion="collapse" class="my-5"
+                data-active-classes="bg-white dark:bg-gray-900 text-orange-500 dark:text-white"
+                data-inactive-classes="text-gray-900">
+                
+                <h4 id="accordion-flush-heading-1">
+                    <button type="button"
+                        class="flex justify-between items-center py-5 w-full font-normal text-left border-b border-gray-200 bg-white text-gray-500"
+                        data-accordion-target="#accordion-flush-body-1" aria-expanded="true"
+                        aria-controls="accordion-flush-body-1">
+                        <span class="text-sm"><i class="bi bi-graph-up-arrow"></i> Strategic Transformation</span>
+                        <svg data-accordion-icon="" class="w-4 h-4 rotate-180 shrink-0" fill="currentColor"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </h4>
+                <div id="accordion-flush-body-1" class="" aria-labelledby="accordion-flush-heading-1">
+                    <div class="py-5 border-b border-gray-200 dark:border-gray-700 text-sm">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Our team of expert practitioners will
+                            facilitate custom-built strategy sessions with proven methodologies, practical tools and
+                            hands-on exercises for designing a strategy and putting an effective management system
+                            in place. We provide the framework and structure; your team builds a great plan.</p>
+                    </div>
+                </div>
+
+                <h4 id="accordion-flush-heading-2">
+                    <button type="button"
+                        class="flex justify-between items-center py-5 w-full font-normal text-left border-b border-gray-200 bg-white text-gray-500"
+                        data-accordion-target="#accordion-flush-body-2" aria-expanded="true"
+                        aria-controls="accordion-flush-body-2">
+                        <span class="text-sm"><i class="bi bi-arrow-counterclockwise"></i> Business Turnaround</span>
+                        <svg data-accordion-icon="" class="w-4 h-4 rotate-180 shrink-0" fill="currentColor"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </h4>
+                <div id="accordion-flush-body-2" class="" aria-labelledby="accordion-flush-heading-2">
+                    <div class="py-5 border-b border-gray-200 dark:border-gray-700 text-sm">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Our turnaround management consulting services include discoveries, financial restructuring, cost reduction and revenue improvement opportunities. Working with management, investment bankers, lawyers, and other professionals, we help companies improve results for the benefit of all stakeholders. We work with short- and long-term horizons, and our efforts are designed to have immediate, material, and quantifiable positive impacts.</p>
+                    </div>
+                </div>
+
+                <h4 id="accordion-flush-heading-3">
+                    <button type="button"
+                        class="flex justify-between items-center py-5 w-full font-normal text-left border-b border-gray-200 bg-white text-gray-500"
+                        data-accordion-target="#accordion-flush-body-3" aria-expanded="true"
+                        aria-controls="accordion-flush-body-3">
+                        <span class="text-sm"><i class="bi bi-person-check"></i> Employee Insights</span>
+                        <svg data-accordion-icon="" class="w-4 h-4 rotate-180 shrink-0" fill="currentColor"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </h4>
+                <div id="accordion-flush-body-3" class="" aria-labelledby="accordion-flush-heading-3">
+                    <div class="py-5 border-b border-gray-200 dark:border-gray-700 text-sm">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Engage your organization in the strategic planning process. We’ll develop a targeted survey to gather insight from board members, managers, and staff.</p>
+                    </div>
+                </div>
+
+                <h4 id="accordion-flush-heading-4">
+                    <button type="button"
+                        class="flex justify-between items-center py-5 w-full font-normal text-left border-b border-gray-200 bg-white text-gray-500"
+                        data-accordion-target="#accordion-flush-body-4" aria-expanded="true"
+                        aria-controls="accordion-flush-body-4">
+                        <span class="text-sm pr-5"><i class="bi bi-shop"></i> Market Assessments, Competitive, & Industry Analysis</span>
+                        <svg data-accordion-icon="" class="w-4 h-4 rotate-180 shrink-0" fill="currentColor"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </h4>
+                <div id="accordion-flush-body-4" class="" aria-labelledby="accordion-flush-heading-4">
+                    <div class="py-5 border-b border-gray-200 dark:border-gray-700 text-sm">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Identify where the greatest opportunities for growth exist with customized research to gain strategic insights into current and emerging players in your market, industry trends, and market shifts.</p>
+                    </div>
+                </div>
+
+                <h4 id="accordion-flush-heading-5">
+                    <button type="button"
+                        class="flex justify-between items-center py-5 w-full font-normal text-left border-b border-gray-200 bg-white text-gray-500"
+                        data-accordion-target="#accordion-flush-body-5" aria-expanded="true"
+                        aria-controls="accordion-flush-body-5">
+                        <span class="text-sm pr-5"><i class="bi bi-diagram-2"></i> Organization Benchmarking</span>
+                        <svg data-accordion-icon="" class="w-4 h-4 rotate-180 shrink-0" fill="currentColor"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </h4>
+                <div id="accordion-flush-body-5" class="" aria-labelledby="accordion-flush-heading-5">
+                    <div class="py-5 border-b border-gray-200 dark:border-gray-700 text-sm">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Benchmark your organization’s strategic performance against high performing organizations that are successful in strategy design and implementation.</p>
+                    </div>
+                </div>
+
+                <h4 id="accordion-flush-heading-6">
+                    <button type="button"
+                        class="flex justify-between items-center py-5 w-full font-normal text-left border-b border-gray-200 bg-white text-gray-500"
+                        data-accordion-target="#accordion-flush-body-6" aria-expanded="true"
+                        aria-controls="accordion-flush-body-6">
+                        <span class="text-sm pr-5"><i class="bi bi-bank"></i> Government Policy & Political Risk Analysis</span>
+                        <svg data-accordion-icon="" class="w-4 h-4 rotate-180 shrink-0" fill="currentColor"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </h4>
+                <div id="accordion-flush-body-6" class="" aria-labelledby="accordion-flush-heading-6">
+                    <div class="py-5 border-b border-gray-200 dark:border-gray-700 text-sm">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Our policy and political risk consulting team helps business leaders to anticipate, analyze and navigate the challenges arising from political developments. We provide policy and political risk consulting and advisory services that are timely, market-relevant and forward-looking. We help business leaders understand political events and their implications for corporations and financial markets and a country’s fiscal policy to its economic outlook.</p>
+                    </div>
+                </div>
+
+                <h4 id="accordion-flush-heading-7">
+                    <button type="button"
+                        class="flex justify-between items-center py-5 w-full font-normal text-left border-b border-gray-200 bg-white text-gray-500"
+                        data-accordion-target="#accordion-flush-body-7" aria-expanded="true"
+                        aria-controls="accordion-flush-body-7">
+                        <span class="text-sm pr-5"><i class="bi bi-collection"></i> Consulting & Training</span>
+                        <svg data-accordion-icon="" class="w-4 h-4 rotate-180 shrink-0" fill="currentColor"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </h4>
+                <div id="accordion-flush-body-7" class="" aria-labelledby="accordion-flush-heading-7">
+                    <div class="py-5 border-b border-gray-200 dark:border-gray-700 text-sm">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Build an actionable, agile plan with a framework. We’ll help you build and cascade to engage your team.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="../node_modules/flowbite/dist/flowbite.js"></script>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
