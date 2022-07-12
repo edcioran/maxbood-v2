@@ -78,7 +78,7 @@
                 <h1 class="text-white leading-6 md:leading-none md:mb-10">Extensive global expertise in policy,
                     commerce, and politics with a focus on building competitive advantage</h1>
                 <div class="hidden md:flex">
-                    <a href="#services-section"><button type="button" class="secondary-button mt-5 md:text-lg">Meet The
+                    <a href="#team-section"><button type="button" class="secondary-button mt-5 md:text-lg">Meet The
                             Team</button></a>
                 </div>
             </div>
@@ -87,80 +87,104 @@
 
     <!-- TEAM SECTION -->
     <section id="team-section">
-        <div class="container px-4 py-8">
+        <div class="container px-4 py-8 mx-auto md:py-20">
             <sub>Meet the team</sub>
             <h2 class="mt-2">People behind the wheel</h2>
-            <div class="mt-5">
+            <div class="mt-5 md:flex md:mt-10">
 
-                <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-3">
-                    <div id="arijanti" class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay"></div>
-                    <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
-                    <div class="ml-3">
-                        <h3 class="text-sm font-semibold">Arijanti Erfin</h3>
-                        <p class="text-sm">(Yanti)</p>
+                <!-- PERSON DETAILS MODAL -->
+                <div id="person-details-overlay" class="hidden md:hidden fixed top-0 right-0 left-0 bottom-0 bg-black/20 z-10">
+                </div>
+                <div id="person-details"
+                    class="fixed overflow-hidden bottom-0 right-0 left-0 max-h-0 md:static md:max-h-screen bg-white rounded-t-lg border z-20 md:min-w-[400px] md:overflow-visible md:rounded-lg md:shadow md:mr-4"
+                    style="transition: ease-in .15s;">
+                    <div class="relative container mx-auto px-6 py-8">
+                        <div class="flex flex-col items-center">
+                            <img src="../src/img/team/arijanti.png" alt="" class="w-16 md:w-24 rounded-full">
+                            <h3 class="text-base md:text-lg font-medium mt-3">Arijanti Erfin</h3>
+                        </div>
+                        <hr class="my-4">
+                        <p class="text-sm md:text-base">
+                            Arijanti Erfin (Yanti) has extensive experiences in the area of business management, insurance, marketing, business development, mergers and acquisitions as well as human resources development. Yanti has a long and outstanding experiences at the director and senior management levels in various large corporate groups (Taspen, ASEI, Waskita Karya, BRI and ANTV) during the period 1993-2022. Yanti is also experienced in the divestment process of several mega infrastructure toll roads projects in Indonesia. Yanti earned a bachelor's degree from the University of Indonesia (1990) and continued her education at the PPM Business Masters (2022). Yanti is also a Certified Wealth Manager holder.</p>
+                    </div>
+                </div>
+
+                <div class="md:min-w-[400px]">
+
+                    <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-3">
+                        <div id="arijanti"
+                            class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay">
+                        </div>
+                        <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
+                        <div class="ml-3">
+                            <h3 class="text-sm md:text-base font-semibold">Arijanti Erfin</h3>
+                            <p class="text-sm md:text-base">(Yanti)</p>
+                        </div>
+                    </div>
+
+                    <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-2">
+                        <div id="taufik"
+                            class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay">
+                        </div>
+                        <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
+                        <div class="ml-3">
+                            <h3 class="text-sm md:text-base font-semibold">Taufik Hendra</h3>
+                            <p class="text-sm md:text-base">(Taufik)</p>
+                        </div>
+                    </div>
+
+                    <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-2">
+                        <div id="hadjar"
+                            class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay">
+                        </div>
+                        <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
+                        <div class="ml-3">
+                            <h3 class="text-sm md:text-base font-semibold">Hadjar Seti Adji</h3>
+                            <p class="text-sm md:text-base">(Hadjar)</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="md:min-w-[400px]">
+                    <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-2">
+                        <div id="yudi"
+                            class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay">
+                        </div>
+                        <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
+                        <div class="ml-3">
+                            <h3 class="text-sm md:text-base font-semibold">Yudi Ali</h3>
+                            <p class="text-sm md:text-base">(Yudi)</p>
+                        </div>
+                    </div>
+
+                    <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-2">
+                        <div id="manar"
+                            class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay">
+                        </div>
+                        <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
+                        <div class="ml-3">
+                            <h3 class="text-sm md:text-base font-semibold">Manar Barmawi</h3>
+                            <p class="text-sm md:text-base">(Manar)</p>
+                        </div>
+                    </div>
+
+                    <div class="card person-card shadow-sm flex items-center px-3 py-3 relative">
+                        <div id="azwir"
+                            class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay">
+                        </div>
+                        <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
+                        <div class="ml-3">
+                            <h3 class="text-sm md:text-base font-semibold">Azwir Zamrinurdin</h3>
+                            <p class="text-sm md:text-base">(Azwir)</p>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-2">
-                    <div id="taufik" class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay"></div>
-                    <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
-                    <div class="ml-3">
-                        <h3 class="text-sm font-semibold">Taufik Hendra</h3>
-                        <p class="text-sm">(Taufik)</p>
-                    </div>
-                </div>
-
-                <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-2">
-                    <div id="hadjar" class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay"></div>
-                    <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
-                    <div class="ml-3">
-                        <h3 class="text-sm font-semibold">Hadjar Seti Adji</h3>
-                        <p class="text-sm">(Hadjar)</p>
-                    </div>
-                </div>
-
-                <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-2">
-                    <div id="yudi" class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay"></div>
-                    <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
-                    <div class="ml-3">
-                        <h3 class="text-sm font-semibold">Yudi Ali</h3>
-                        <p class="text-sm">(Yudi)</p>
-                    </div>
-                </div>
-
-                <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-2">
-                    <div id="manar" class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay"></div>
-                    <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
-                    <div class="ml-3">
-                        <h3 class="text-sm font-semibold">Manar Barmawi</h3>
-                        <p class="text-sm">(Manar)</p>
-                    </div>
-                </div>
-
-                <div class="card person-card shadow-sm flex items-center px-3 py-3 relative">
-                    <div id="azwir" class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay"></div>
-                    <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
-                    <div class="ml-3">
-                        <h3 class="text-sm font-semibold">Azwir Zamrinurdin</h3>
-                        <p class="text-sm">(Azwir)</p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- PERSON DETAILS SECTION -->
-    <div id="person-details-overlay" class="hidden fixed top-0 right-0 left-0 bottom-0 bg-black/20 z-10"></div>
-    <section id="person-details" class="fixed overflow-hidden bottom-0 right-0 left-0 max-h-0 bg-white rounded-t-lg border z-20" style="transition: ease-in .15s;">
-        <div class="relative container mx-auto px-6 py-8">
-            <div class="flex flex-col items-center">
-                <img src="../src/img/team/blank-pp__team-page.png" alt="" class="w-16 rounded-full">
-                <h3 class="text-base mt-3"></h3>
-            </div>
-            <hr class="my-4">
-            <p class="text-sm"></p>
-        </div>
-    </section>
+
 
     <script src="../node_modules/flowbite/dist/flowbite.js"></script>
     <script src="./js/main.js"></script>
