@@ -1085,6 +1085,13 @@ footer li {
   --tw-ring-color: rgb(253 186 140 / var(--tw-ring-opacity));
 }
 
+@media (min-width: 768px) {
+  .secondary-button {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
 .card {
   max-width: 24rem;
   border-radius: 0.5rem;
@@ -1227,6 +1234,10 @@ footer li {
   margin-top: 3.5rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -1235,16 +1246,8 @@ footer li {
   margin-bottom: 0.25rem;
 }
 
-.mb-7 {
-  margin-bottom: 1.75rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .block {
@@ -1703,6 +1706,11 @@ footer li {
   line-height: 1.75rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-normal {
   font-weight: 400;
 }
@@ -1799,12 +1807,6 @@ footer li {
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-md {
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -2069,6 +2071,18 @@ footer li {
     margin-bottom: 2.5rem;
   }
 
+  .md\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .md\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .md\:mt-7 {
+    margin-top: 1.75rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -2089,6 +2103,10 @@ footer li {
     width: auto;
   }
 
+  .md\:max-w-xl {
+    max-width: 36rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -2097,8 +2115,16 @@ footer li {
     align-items: flex-end;
   }
 
+  .md\:items-center {
+    align-items: center;
+  }
+
   .md\:justify-center {
     justify-content: center;
+  }
+
+  .md\:gap-10 {
+    gap: 2.5rem;
   }
 
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -2129,6 +2155,10 @@ footer li {
     padding-right: 0;
   }
 
+  .md\:pt-24 {
+    padding-top: 6rem;
+  }
+
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -2137,6 +2167,11 @@ footer li {
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .md\:font-medium {
