@@ -1334,6 +1334,20 @@ footer li {
   width: 50%;
 }
 
+.min-w-fit {
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+
+.min-w-\[100px\] {
+  min-width: 100px;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -1575,6 +1589,11 @@ footer li {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -1677,6 +1696,10 @@ footer li {
 
 .pb-\[65\%\] {
   padding-bottom: 65%;
+}
+
+.pb-\[15\%\] {
+  padding-bottom: 15%;
 }
 
 .text-left {
@@ -2103,12 +2126,48 @@ footer li {
     width: auto;
   }
 
+  .md\:w-52 {
+    width: 13rem;
+  }
+
+  .md\:w-40 {
+    width: 10rem;
+  }
+
+  .md\:min-w-\[300px\] {
+    min-width: 300px;
+  }
+
+  .md\:min-w-\[450px\] {
+    min-width: 450px;
+  }
+
+  .md\:min-w-\[400px\] {
+    min-width: 400px;
+  }
+
   .md\:max-w-xl {
     max-width: 36rem;
   }
 
+  .md\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .md\:max-w-sm {
+    max-width: 24rem;
+  }
+
+  .md\:max-w-xs {
+    max-width: 20rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:items-start {
+    align-items: flex-start;
   }
 
   .md\:items-end {
@@ -2121,6 +2180,14 @@ footer li {
 
   .md\:justify-center {
     justify-content: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:justify-around {
+    justify-content: space-around;
   }
 
   .md\:gap-10 {
@@ -2155,8 +2222,35 @@ footer li {
     padding-right: 0;
   }
 
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .md\:pt-24 {
     padding-top: 6rem;
+  }
+
+  .md\:pb-\[20\%\] {
+    padding-bottom: 20%;
+  }
+
+  .md\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .md\:pb-5 {
+    padding-bottom: 1.25rem;
   }
 
   .md\:text-sm {
