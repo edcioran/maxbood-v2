@@ -7,13 +7,13 @@
         @apply text-lg font-medium md:text-6xl
     }
     sub {
-        @apply text-slate-500 uppercase font-semibold tracking-wider;
+        @apply text-slate-500 uppercase font-semibold tracking-wider md:text-base;
     }
     h2 {
-        @apply text-lg font-medium
+        @apply text-lg font-medium md:text-3xl
     }
     h3 {
-        @apply text-base
+        @apply text-base md:text-lg
     }
     p {
         @apply text-gray-600
@@ -26,7 +26,7 @@
 
 @layer components {
     .primary-button {
-        @apply text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 focus:outline-none text-xs;
+        @apply text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 focus:outline-none text-xs md:text-base;
         
     }
     .secondary-button {
