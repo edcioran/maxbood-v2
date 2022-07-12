@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +18,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Team – Maxbood</title>
 </head>
+
 <body>
     <!-- NAVBAR -->
     <nav id="navbar"
@@ -52,7 +54,7 @@
                     </li>
                     <li>
                         <a href="./services.html"
-                        class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 md:text-white">Servives</a>
+                            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 md:text-white">Servives</a>
                     </li>
                     <li>
                         <a href="./team.html"
@@ -76,15 +78,93 @@
                 <h1 class="text-white leading-6 md:leading-none md:mb-10">Extensive global expertise in policy,
                     commerce, and politics with a focus on building competitive advantage</h1>
                 <div class="hidden md:flex">
-                    <a href="#services-section"><button type="button" class="secondary-button mt-5 md:text-lg">Our
-                            services</button></a>
+                    <a href="#services-section"><button type="button" class="secondary-button mt-5 md:text-lg">Meet The
+                            Team</button></a>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- TEAM SECTION -->
+    <section id="team-section">
+        <div class="container px-4 py-8">
+            <sub>Meet the team</sub>
+            <h2 class="mt-2">People behind the wheel</h2>
+            <div class="mt-5">
+
+                <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-3">
+                    <div id="arijanti" class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay"></div>
+                    <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
+                    <div class="ml-3">
+                        <h3 class="text-sm font-semibold">Arijanti Erfin</h3>
+                        <p class="text-sm">(Yanti)</p>
+                    </div>
+                </div>
+                
+                <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-2">
+                    <div id="taufik" class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay"></div>
+                    <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
+                    <div class="ml-3">
+                        <h3 class="text-sm font-semibold">Taufik Hendra</h3>
+                        <p class="text-sm">(Taufik)</p>
+                    </div>
+                </div>
+
+                <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-2">
+                    <div id="hadjar" class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay"></div>
+                    <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
+                    <div class="ml-3">
+                        <h3 class="text-sm font-semibold">Hadjar Seti Adji</h3>
+                        <p class="text-sm">(Hadjar)</p>
+                    </div>
+                </div>
+
+                <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-2">
+                    <div id="yudi" class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay"></div>
+                    <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
+                    <div class="ml-3">
+                        <h3 class="text-sm font-semibold">Yudi Ali</h3>
+                        <p class="text-sm">(Yudi)</p>
+                    </div>
+                </div>
+
+                <div class="card person-card shadow-sm flex items-center px-3 py-3 relative mb-2">
+                    <div id="manar" class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay"></div>
+                    <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
+                    <div class="ml-3">
+                        <h3 class="text-sm font-semibold">Manar Barmawi</h3>
+                        <p class="text-sm">(Manar)</p>
+                    </div>
+                </div>
+
+                <div class="card person-card shadow-sm flex items-center px-3 py-3 relative">
+                    <div id="azwir" class="absolute top-0 bottom-0 right-0 left-0 bg-transparent rounded-lg cursor-pointer person-card-overlay"></div>
+                    <img src="../src/img/team/arijanti.png" alt="" class="w-11 rounded-full">
+                    <div class="ml-3">
+                        <h3 class="text-sm font-semibold">Azwir Zamrinurdin</h3>
+                        <p class="text-sm">(Azwir)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PERSON DETAILS SECTION -->
+    <div id="person-details-overlay" class="hidden fixed top-0 right-0 left-0 bottom-0 bg-black/20 z-10"></div>
+    <section id="person-details" class="fixed overflow-hidden bottom-0 right-0 left-0 max-h-0 bg-white rounded-t-lg border z-20" style="transition: ease-in .15s;">
+        <div class="relative container mx-auto px-6 py-8">
+            <div class="flex flex-col items-center">
+                <img src="../src/img/team/blank-pp__team-page.png" alt="" class="w-16 rounded-full">
+                <h3 class="text-base mt-3"></h3>
+            </div>
+            <hr class="my-4">
+            <p class="text-sm"></p>
+        </div>
+    </section>
 
     <script src="../node_modules/flowbite/dist/flowbite.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/team.js"></script>
 </body>
+
 </html>
