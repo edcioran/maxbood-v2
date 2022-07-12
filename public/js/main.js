@@ -7,13 +7,14 @@ let navMenu = document.querySelectorAll('#navbar li a')
 
 function NavbarToWhite() {
     navbar.classList.replace('bg-transparent', 'bg-white')
-    navbar.classList.add('shadow-sm')
+    navbar.classList.add('shadow-md')
     navbarToggle.classList.replace('text-white', 'text-gray-500')
     brandImg.src = "../src/img/branding/logo-bo.png"
 }
 function NavbarToTransparent() {
     navbar.classList.replace('bg-white', 'bg-transparent')
     navbarToggle.classList.replace('text-gray-500', 'text-white')
+    navbar.classList.remove('shadow-md')
     brandImg.src = "../src/img/branding/logo-wo.png"
 }
 function NavbarDesktopMenuToBlack() {
