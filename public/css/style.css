@@ -1227,11 +1227,6 @@ footer li {
   margin-bottom: 1rem;
 }
 
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
 .mr-3 {
   margin-right: 0.75rem;
 }
@@ -1384,12 +1379,12 @@ footer li {
   width: 500px;
 }
 
-.w-11 {
-  width: 2.75rem;
-}
-
 .w-16 {
   width: 4rem;
+}
+
+.w-11 {
+  width: 2.75rem;
 }
 
 .w-64 {
@@ -1398,18 +1393,6 @@ footer li {
 
 .w-1\/2 {
   width: 50%;
-}
-
-.min-w-\[200px\] {
-  min-width: 200px;
-}
-
-.min-w-\[300px\] {
-  min-width: 300px;
-}
-
-.min-w-\[400px\] {
-  min-width: 400px;
 }
 
 .flex-1 {
@@ -1678,11 +1661,6 @@ footer li {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -1741,6 +1719,11 @@ footer li {
   padding-bottom: 6rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1749,11 +1732,6 @@ footer li {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .px-2 {
@@ -2200,16 +2178,6 @@ footer li {
     position: static;
   }
 
-  .md\:my-20 {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  }
-
-  .md\:my-10 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
   .md\:mt-0 {
     margin-top: 0;
   }
@@ -2238,14 +2206,6 @@ footer li {
     margin-top: 1.75rem;
   }
 
-  .md\:mr-3 {
-    margin-right: 0.75rem;
-  }
-
-  .md\:mr-5 {
-    margin-right: 1.25rem;
-  }
-
   .md\:mr-4 {
     margin-right: 1rem;
   }
@@ -2264,14 +2224,6 @@ footer li {
 
   .md\:h-screen {
     height: 100vh;
-  }
-
-  .md\:h-\[200px\] {
-    height: 200px;
-  }
-
-  .md\:max-h-\[200px\] {
-    max-height: 200px;
   }
 
   .md\:max-h-screen {
