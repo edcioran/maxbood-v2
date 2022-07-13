@@ -1679,6 +1679,26 @@ footer li {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
+.bg-orange-800\/30 {
+  background-color: rgb(138 44 13 / 0.3);
+}
+
+.bg-orange-800\/60 {
+  background-color: rgb(138 44 13 / 0.6);
+}
+
+.bg-orange-800\/90 {
+  background-color: rgb(138 44 13 / 0.9);
+}
+
+.bg-orange-800\/80 {
+  background-color: rgb(138 44 13 / 0.8);
+}
+
+.bg-orange-800\/50 {
+  background-color: rgb(138 44 13 / 0.5);
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
