@@ -4,13 +4,13 @@
 
 @layer base {
     h1 {
-        @apply text-lg font-medium md:text-6xl
+        @apply text-2xl font-medium md:text-6xl
     }
     sub {
-        @apply text-slate-500 uppercase font-semibold tracking-wider md:text-base;
+        @apply text-slate-500 uppercase font-semibold tracking-wider md:text-base text-sm;
     }
     h2 {
-        @apply text-lg font-medium md:text-3xl
+        @apply text-2xl font-medium md:text-3xl
     }
     h3 {
         @apply text-base md:text-lg
@@ -26,11 +26,11 @@
 
 @layer components {
     .primary-button {
-        @apply text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 focus:outline-none text-xs md:text-base;
+        @apply text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 focus:outline-none text-sm md:text-base;
         
     }
     .secondary-button {
-        @apply text-orange-500 bg-white hover:bg-slate-200 focus:ring-4 focus:ring-orange-300 font-medium border-[1.5px] border-orange-500 rounded-lg px-5 py-2.5 mr-2 mb-2 focus:outline-none text-xs md:text-base;
+        @apply text-orange-500 bg-white hover:bg-slate-200 focus:ring-4 focus:ring-orange-300 font-medium border-[1.5px] border-orange-500 rounded-lg px-5 py-2.5 mr-2 mb-2 focus:outline-none text-sm md:text-base;
     }
     .card {
         @apply p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700
