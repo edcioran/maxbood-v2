@@ -1157,6 +1157,11 @@ footer li {
   position: relative;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
 .inset-0 {
   top: 0;
   right: 0;
@@ -1460,6 +1465,10 @@ footer li {
 
 .cursor-not-allowed {
   cursor: not-allowed;
+}
+
+.cursor-text {
+  cursor: text;
 }
 
 .resize {
@@ -1852,6 +1861,22 @@ footer li {
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.align-top {
+  vertical-align: top;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.align-bottom {
+  vertical-align: bottom;
 }
 
 .text-sm {
