@@ -76,16 +76,16 @@ let yudi = new teamMember(
     `
         <li>Yudi Ali Marsyahid (Yudi) has long experience in the managerial level in the area of government policy analysis, business development, financial modeling and business turnaround.</li>
         <li>Having extensive managerial experience in several large companies (Hutama Karya, Kereta Api Indonesia, Astra) during the period 2012-2022, Yudi combines his experiences in the private sector with experiences in the public sector at the Ministry of Finance Republic of Indoensia and several public policy institutions related to economic and political analysis (2000-2012).</li>
-        <li>Yudi studied at Trisakti University's Master of Islamic Economics and Finance (2018). Yudi is also the holder of the title of Broker-Dealer Representative (WPPE) and Deputy Investment Manager (WMI) as a professional requirement in the Indoensian capital market.
+        <li>Graduated from Sekolah Tinggi Akuntansi Negara (STAN) and Mercubuana University majoring in Finance Management. Yudi is also the holder of the title of Broker-Dealer Representative (WPPE) and Deputy Investment Manager (WMI) as a professional requirement in the Indonesian capital market.</li>
     `
 )
 let manar = new teamMember(
     '../src/img/team/manar.jpg',
     'Manar Barmawi',
     `
-        <li>Muhammad Manar Barmawi (Manar) has extensive experiences in financial restructuring, financial modeling, business turnaround and corporate rating performance management. Manar is also familiar with fiscal management and the process of procurement of government goods and services.</li>
-        <li>With a master's background in accounting from the University of Indonesia (2010), Manar has an ouststanding career (2011-2022) at the managerial level in several large companies (Wijya Karya, Housing Development, Pefindo, Medco) and government (BPKP, 1995-2011).</li>
-        <li>Manar also holds the Chartered Accountant (CA) and Australian Certified Management Accountant (CMA) professional certifications.</li>
+        <li>Muhammad Manar Barmawi (Manar) has extensive experiences in financial restructuring, financial modeling, business turnaround and corporate rating performance management. Manar is also familiar with Governance-Risk-Control (GRC), fiscal management and the process of procurement of government goods and services.</li>
+        <li>With a master's background in accounting from the University of Indonesia (2010), Manar has an ouststanding career (2011-2022) at the managerial level in several large companies (PP Infrastruktur, Wika Realty, Telkom Property, PII, Pefindo, Medco) and government (BPKP, 1996-2011).</li>
+        <li>Manar also holds the Chartered Accountant (CA), CPA Australia, Australian Certified Management Accountant (CMA), ASEAN CPA, Certified Risk Professional (CRP), Certified Investment Banker (CIB), Financial Risk on Corporate Analyst (FRAC), and Professional Financial Modeller (PFM) professional certifications.</li>
     `
 )
 let azwir = new teamMember(

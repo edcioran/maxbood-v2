@@ -58,3 +58,22 @@ function checkScroll() {
 
 //initial check when entering the page
 checkScroll()
+
+
+// function breakWithHyphen(str) {
+//     let strArr = []
+//     for(let i =0; i<str.length; i++) {
+//         strArr.push(str[i])
+//         if (str[i] ==" ") continue
+//         else strArr.push('&shy')
+//     }
+//     let strNew = strArr.join('')
+//     return strNew
+// }
+
+// const brokenTexts = document.querySelectorAll('.break-hyphen')
+// brokenTexts.forEach((brokenText) => {
+//     let broken = brokenText.textContent
+//     let strNew = breakWithHyphen(broken)
+//     brokenText.innerHTML = strNew
+// })

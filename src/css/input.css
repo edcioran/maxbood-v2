@@ -38,4 +38,7 @@
     .person-card{
         @apply bg-white hover:bg-slate-50
     }
+    .bio-list li {
+        @apply mb-4
+    }
 }
