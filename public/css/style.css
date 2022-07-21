@@ -1463,6 +1463,14 @@ footer li {
   resize: both;
 }
 
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -1759,6 +1767,11 @@ footer li {
   padding-right: 1.25rem;
 }
 
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 .pr-4 {
   padding-right: 1rem;
 }
@@ -1813,6 +1826,14 @@ footer li {
 
 .pr-5 {
   padding-right: 1.25rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .text-left {
@@ -1915,6 +1936,11 @@ footer li {
 .text-orange-200 {
   --tw-text-opacity: 1;
   color: rgb(252 217 189 / var(--tw-text-opacity));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 .text-blue-600 {

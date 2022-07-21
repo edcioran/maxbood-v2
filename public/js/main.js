@@ -30,7 +30,7 @@ function NavbarDesktopMenuToWhite() {
     })
 }
 
-navbarToggle.addEventListener("click", function () {
+navbarToggle.addEventListener("click", () => {
     // When navbar is NOT expanded
     if (!mobileMenu.classList.contains('navbar-opened')) {
         NavbarToWhite();
@@ -43,7 +43,9 @@ navbarToggle.addEventListener("click", function () {
 })
 
 // Navbar change color when scrolling
-document.addEventListener("scroll", function () {
+document.addEventListener("scroll", checkScroll)
+
+function checkScroll() {
     if (window.scrollY >= 40 && !navbar.classList.contains('is-white')) {
         NavbarToWhite()
         NavbarDesktopMenuToBlack()
@@ -52,4 +54,7 @@ document.addEventListener("scroll", function () {
         NavbarToTransparent()
         NavbarDesktopMenuToWhite()
     }
-})
+}
+
+//initial check when entering the page
+checkScroll()
