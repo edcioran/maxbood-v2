@@ -1710,6 +1710,11 @@ footer li {
   background-color: rgb(138 44 13 / var(--tw-bg-opacity));
 }
 
+.bg-orange-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 248 241 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
