@@ -10,14 +10,14 @@ function NavbarToWhite() {
     navbar.classList.replace('bg-transparent', 'bg-white')
     navbar.classList.add('shadow-md')
     navbarToggle.classList.replace('text-white', 'text-gray-500')
-    brandImg.src = "../src/img/branding/logo-bo.png"
+    brandImg.src = "../src/img/branding/logo-text-bo.png"
 }
 function NavbarToTransparent() {
     navbar.classList.remove('is-white')
     navbar.classList.replace('bg-white', 'bg-transparent')
     navbarToggle.classList.replace('text-gray-500', 'text-white')
     navbar.classList.remove('shadow-md')
-    brandImg.src = "../src/img/branding/logo-wo.png"
+    brandImg.src = "../src/img/branding/logo-text-wo.png"
 }
 function NavbarDesktopMenuToBlack() {
     navMenu.forEach(function(navA){
